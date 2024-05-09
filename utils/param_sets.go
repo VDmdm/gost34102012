@@ -6,7 +6,8 @@ import (
 
 // Здесь представлены заранее высчитанные параметры
 // для элептических кривых в соответствии с
-// ТК 26 https://cryptopro.ru/sites/default/files/products/tls/tk26iok.pdf
+// ТК 26 https://www.cryptopro.ru/sites/default/files/blog/cpecc12-tc26.pdf
+// RFC 9215 https://datatracker.ietf.org/doc/rfc9215/
 
 // id-GostR3410-2001-CryptoPro-A-ParamSet
 func NewCurve256CryptoProParamSetA() *Curve {
