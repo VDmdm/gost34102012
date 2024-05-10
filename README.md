@@ -21,7 +21,7 @@ go build main.go -o gost34102012
 - -gen – запуск в режиме генерации ключей пользователя.  Ключи сохраняются в текущий дериктории [timestamp]_public.sigkey и [timestamp]_private.sigkey;
 - -sign-file – запуск в режиме подписи файла;
 - -verify-sign – запуск в режиме проверки подписи файла;
-- -verify-sign [строка: имя параметра] – выбор параметров элептической кривой. По умолчанию: id-tc26-gost-3410-12-512-paramSetB. Может быть один из [id-GostR3410-2001-CryptoPro-A-ParamSet, id-GostR3410-2001-CryptoPro-B-ParamSet, id-GostR3410-2001-CryptoPro-C-ParamSet, id-tc26-gost-3410-12-512-paramSetA, id-tc26-gost-3410-12-512-paramSetB];
+- -params [строка: имя параметра] – выбор параметров элептической кривой. По умолчанию: id-tc26-gost-3410-12-512-paramSetB. Может быть один из [id-GostR3410-2001-CryptoPro-A-ParamSet, id-GostR3410-2001-CryptoPro-B-ParamSet, id-GostR3410-2001-CryptoPro-C-ParamSet, id-tc26-gost-3410-12-512-paramSetA, id-tc26-gost-3410-12-512-paramSetB];
 
 ## Пример работы программы
 ```sh
